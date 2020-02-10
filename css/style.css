@@ -1,0 +1,71 @@
+/* simple reset */
+* {
+  box-sizing:border-box;
+  margin:0;
+  padding:0;
+}
+
+body { 
+
+  background-color: aqua;
+  
+}
+
+header { 
+
+   text-align: center;
+  
+  
+}
+
+
+nav{ 
+
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+
+
+
+}
+
+main { 
+
+      height: 100vh;
+      display: flex;
+      flex-direction: column;
+
+
+}
+
+.aboutme { 
+
+      height: 200px;
+      background-color: blueviolet;
+}
+
+.skills {
+
+    height: 200px;
+    background-color: burlywood;
+
+
+}
+
+.project {
+
+    height: 200px;
+    background-color: chocolate;
+}
+
+
+.icons { 
+
+    height: 100px;
+    width: 50px;
+
+}
+
+
+
+
